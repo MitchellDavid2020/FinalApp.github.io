@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  width: 450px;
+  border: 2px solid #2a9fbc;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #2a9fbc;
+  color: white;
+  padding: 10px 5px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.ratings div {
+  padding: 5px;
+  border-bottom: 2px solid #2a9fbc;
+  color: #1f778d;
+}
+
+.ratings input[type="number"] {
+  text-align: right;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  color: #1f778d;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advanced {
+  display: none;
+}
+
+.advanced_btn {
+  padding: 10px;
+  color: #1f778d;
+  border-radius: 10px;
+}
+
+a.class1 {
+  color: hotpink;
+}
+a.class2 {
+  color: hotpink;
+}
+a.class3 {
+  color: hotpink;
+}
+a.class4 {
+  color: hotpink;
+}
+a.class5 {
+  color: hotpink;
+}
+a.class6 {
+  color: hotpink;
+}
